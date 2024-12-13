@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Body Styling */
+  body {
+    background-color: #f3e5d8;
+    color: #4a2c2a;
+    line-height: 1.6;
+  }
+
+  /* Nav Bar */
+  nav {
+    background: #8b5e3c;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  nav .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* Nav Links */
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav ul li {
+    margin-left: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #d7b899;
+  }
+
+  /* welcom Section */
+  .welcome {
+    padding: 5rem 2rem;
+    text-align: center;
+    background: #d7b899;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background: #8b5e3c;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background: #6b4630;
+  }
+
+  /* Menu Section */
+  #ourmenu{color: white;}
+  .menu-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+  }
+  #menu {
+    background-image: url(coffee_shop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 300px;
+  }
+
+  /* About and Contact Sections */
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  /* Contact Form  */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  form button {
+    background: #8b5e3c;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  form button:hover {
+    background: #6b4630;
+  }
+
+  /* Footer */
+  footer {
+    background: #8b5e3c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+
+    nav ul {
+      display: none;
+      text-align: center;
+    }
+
+    nav ul.nav-active {
+      display: block;
+    }
+    
+    nav ul li {
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    form {
+      width: 90%;
+    }
+  }
