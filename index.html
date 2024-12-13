@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">Cozy Coffee</div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <ul class="nav-active" id="nav-links">
+      <li><a href="#home"> Home</a></li>
+      <li><a href="#menu"> Menu</a></li>
+      <li><a href="#about"> About</a></li>
+      <li><a href="#contact"> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="welcome">
+    <h1>Welcome to Cozy Coffee</h1>
+    <p>Your perfect cup of coffee awaits!</p>
+    <button id="inspire-btn">Get Inspired</button>
+    <p id="Messages" class="inspire"></p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" >
+    <h2 id="ourmenu">Our Menu </h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Espresso</h3>
+        <p>Rich and bold shot of coffee.</p>
+        <span>$2.50</span>
+      </div>
+      <div class="item">
+        <h3>Latte</h3>
+        <p>Creamy coffee with steamed milk.</p>
+        <span>$3.50</span>
+      </div>
+      <div class="item">
+        <h3>Cappuccino</h3>
+        <p>Espresso, steamed milk, and foam.</p>
+        <span>$3.75</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" >
+    <h2>About Us</h2>
+    <p>We are a local coffee shop committed to providing the best coffee experience for our customers.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" >
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Enter your message or your order" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Cozy Coffee. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+  
+
